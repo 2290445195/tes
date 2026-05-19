@@ -77,8 +77,28 @@ platforms:
       name: "抖音"
     - id: "zhihu"
       name: "知乎"
-
-
+    - id: "sputniknewscn"
+      name: "卫星通讯社"
+    - id: "zaobao"
+      name: "联合早报"
+    - id: "mktnews"
+      name: "MKT新闻"
+    - id: "wallstreetcn-hot"
+      name: "华尔街见闻 最热"
+    - id: "wallstreetcn-quick"
+      name: "华尔街见闻 快讯"
+    - id: "wallstreetcn-news"
+      name: "华尔街见闻 最新"
+    - id: "cls-hot"
+      name: "财联社热门"
+    - id: "gelonghui"
+      name: "格隆汇"
+    - id: "xueqiu"
+      name: "雪球"
+    - id: "jin10"
+      name: "金十数据"
+    - id: "fastbull"
+      name: "快讯通"
 
 # ===============================================================
 # 3. 数据源 - RSS 订阅
@@ -126,6 +146,26 @@ rss:
     - id: "yahoo-finance"
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
+    - id: "techcrunch"
+      name: "TechCrunch"
+      url: "http://feeds.feedburner.com/TechCrunch/"
+    
+    - id: "fastFast Company"
+      name: "Fast Company"
+      url: "https://www.fastcompany.com/rss.xml"
+
+
+    - id: "forbes-entrepreneurs"
+      name: "Forbes - Entrepreneurs"
+      url: "http://www.forbes.com/entrepreneurs/index.xml"
+
+    - id: "Machine Learning Blog | ML@CMU | Carnegie Mellon University"
+      name: "Bloomberg Technology"
+      url: "https://blog.ml.cmu.edu/feed/"
+
+    - id: "deepmind-blog"
+      name: "DeepMind Blog"
+      url: "https://deepmind.com/blog/feed/basic/"
 
     # 自定义源示例
     # - id: "custom-feed"
@@ -415,7 +455,7 @@ ai:
   # 完整列表: https://docs.litellm.ai/docs/providers
   # 如果你对于看英文文档比较头疼，那么可以点击页面右下角的 【Ask AI】 ,用中文询问怎么配置 
   
-  model: "deepseek/deepseek-v4-pro"
+  model: "deepseek/deepseek-v4-flash"
 
   api_key: "sk-8590a75f9e6b45fbbf3e37d44ef8fda4"                       # API Key（建议使用环境变量 AI_API_KEY）
   
